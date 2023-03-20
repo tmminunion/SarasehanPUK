@@ -27,7 +27,7 @@ const tbody = table.getElementsByTagName("tbody")[0];
 usersRef.onSnapshot((querySnapshot) => {
   // Menghapus seluruh data dari tabel HTML
   // Menentukan nilai total peserta dan hadir peserta
-  var totalPeserta = 280;
+  var totalPeserta = 270;
 
   // Mengambil elemen HTML dengan ID "total" dan "hadir"
   var totalElemen = document.getElementById("total");
